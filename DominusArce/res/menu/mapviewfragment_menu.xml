@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_addtower"
+        android:orderInCategory="101"
+        android:showAsAction="always"
+        android:icon="@+drawable/add_tower"
+        android:title="@+string/action_addtower"/>
+    <item
+        android:id="@+id/action_sync"
+        android:orderInCategory="102"
+        android:showAsAction="always"
+        android:icon="@+drawable/ic_menu_refresh"
+        android:title="@+string/action_sync"/>
+
+</menu>
