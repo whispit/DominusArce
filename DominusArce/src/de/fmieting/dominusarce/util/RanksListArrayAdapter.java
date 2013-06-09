@@ -43,10 +43,10 @@ public class RanksListArrayAdapter extends ArrayAdapter<RanksListItem> {
 			currentItem = inflater.inflate(layoutResourceId, parent, false);
 
 			holder = new RanksListItemHolder();
-			holder.icon = (ImageView) currentItem.findViewById(R.id.icon);
-			holder.score = (TextView) currentItem.findViewById(R.id.score);
-			holder.name = (TextView) currentItem.findViewById(R.id.name);
-			holder.position = (TextView) currentItem.findViewById(R.id.position);
+			holder.icon = (ImageView) currentItem.findViewById(R.id.ranksicon);
+			holder.score = (TextView) currentItem.findViewById(R.id.ranksscore);
+			holder.name = (TextView) currentItem.findViewById(R.id.ranksname);
+			holder.position = (TextView) currentItem.findViewById(R.id.ranksposition);
 
 			currentItem.setTag(holder);
 		} else {
